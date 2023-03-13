@@ -2,6 +2,7 @@
 <script>
 import Hero from "./Hero.vue"; //importo l'hero
 import Marketing from "./Marketing.vue"; //importo la sezione di marketing
+import Sales from "./Sales.vue"; //importo la sezione sales
 
 //Esporto
 export default {
@@ -9,6 +10,7 @@ export default {
     components: {
         Hero, //hero
         Marketing, //marketing
+        Sales, //sales
     }
 }
 </script>
@@ -21,6 +23,8 @@ export default {
         <Hero></Hero>
         <!-- Marketing -->
         <Marketing></Marketing>
+        <!-- Sales -->
+        <Sales></Sales>
     </main>
 </template>
 
