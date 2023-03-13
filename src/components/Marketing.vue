@@ -160,6 +160,7 @@
     .plan__description--text {
         font-size: 16px;
         margin-bottom: 40px;
+        color: var(--grey);
     }
     /* Elemento della lista dei pro */
     .pros__element {

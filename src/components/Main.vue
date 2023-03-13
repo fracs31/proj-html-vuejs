@@ -4,6 +4,7 @@ import Hero from "./Hero.vue"; //importo l'hero
 import Marketing from "./Marketing.vue"; //importo la sezione di marketing
 import Sales from "./Sales.vue"; //importo la sezione sales
 import Features from "./Features.vue"; //importo la sezione delle features
+import Testimonials from "./Testimonials.vue"; //importo la sezione delle testimonials
 
 //Esporto
 export default {
@@ -13,6 +14,7 @@ export default {
         Marketing, //marketing
         Sales, //sales
         Features, //features
+        Testimonials, //testimonials
     }
 }
 </script>
@@ -29,6 +31,8 @@ export default {
         <Sales></Sales>
         <!-- Features -->
         <Features></Features>
+        <!-- Testimonials -->
+        <Testimonials></Testimonials>
     </main>
 </template>
 

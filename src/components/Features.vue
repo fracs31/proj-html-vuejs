@@ -164,6 +164,7 @@
     .box__description--text {
         width: 515px;
         margin-top: 35px;
+        color: var(--grey);
     }
     /* Bottone del box */
     .box__description--btn {
@@ -191,16 +192,17 @@
     }
     /* Carta */
     .card {
-        padding: 20px;
+        padding: 0px 20px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
     /* Titolo della carta */
     .card__title {
         font-weight: 500;
-        margin-bottom: 20px;
+        padding: 20px 0px;
     }
     /* Immagine della carta */
     .card__image {
         width: 50px;
+        margin-bottom: 40px;
     }
 </style>

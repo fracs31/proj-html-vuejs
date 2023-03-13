@@ -57,6 +57,7 @@
     .box__description--text {
         font-size: 14px;
         margin-bottom: 40px;
+        color: var(--grey);
     }
     /* Bottone */
     .btn {

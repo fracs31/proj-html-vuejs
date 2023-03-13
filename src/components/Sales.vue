@@ -139,4 +139,8 @@
     .tips__element:first-child .card .card__description--title {
         color: var(--blue);
     }
+    /* Testo della carta */
+    .card__description--text {
+        color: var(--grey);
+    }
 </style>
