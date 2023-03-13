@@ -77,7 +77,6 @@
     .box {
         text-align: center;
         padding-top: 113px;
-        padding-bottom: 50px;
     }
     /* Titolo */
     .box__title {
