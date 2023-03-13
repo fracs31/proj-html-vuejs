@@ -122,4 +122,25 @@
         padding: 10px 15px;
         cursor: pointer;
     }
+    /* Carrello */
+    .cart {
+        position: relative;
+    }
+    /* Pallino */
+    .cart::after {
+        content: "0";
+        font-size: 12px;
+        color: white;
+        display: block;
+        text-align: center;
+        line-height: 20px;
+        width: 20px;
+        aspect-ratio: 1;
+        border-radius: 999px;
+        background-color: var(--blue);
+        position: absolute;
+        top: -5px;
+        right: -15px;
+        z-index: -1;
+    }
 </style>
