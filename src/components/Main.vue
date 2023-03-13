@@ -6,6 +6,7 @@ import Sales from "./Sales.vue"; //importo la sezione sales
 import Features from "./Features.vue"; //importo la sezione delle features
 import Testimonials from "./Testimonials.vue"; //importo la sezione delle testimonials
 import Posts from "./Posts.vue"; //importo la sezione dei post
+import Contact from "./Contact.vue"; //importo la sezione dei contatti
 
 //Esporto
 export default {
@@ -16,7 +17,8 @@ export default {
         Sales, //sales
         Features, //features
         Testimonials, //testimonials
-        Posts, //posts
+        Posts, //posts,
+        Contact, //contatti
     }
 }
 </script>
@@ -37,6 +39,8 @@ export default {
         <Testimonials></Testimonials>
         <!-- Posts -->
         <Posts></Posts>
+        <!-- Contatti -->
+        <Contact></Contact>
     </main>
 </template>
 
