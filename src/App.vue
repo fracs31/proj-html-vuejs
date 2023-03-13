@@ -2,6 +2,7 @@
 <script>
 import Header from "./components/Header.vue"; //importo l'header
 import Main from "./components/Main.vue"; //importo il main
+import Footer from "./components/Footer.vue"; //importo il footer
 
 //Esporto
 export default {
@@ -9,6 +10,7 @@ export default {
     components: {
         Header, //header
         Main, //main
+        Footer, //footer
     }
 }
 </script>
@@ -19,6 +21,8 @@ export default {
     <Header></Header>
     <!-- Main -->
     <Main></Main>
+    <!-- Footer -->
+    <Footer></Footer>
 </template>
 
 <!-- CSS -->
