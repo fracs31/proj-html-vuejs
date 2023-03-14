@@ -120,10 +120,9 @@
     }
     /* Sfondo della carta */
     .card__bg {
-        width: 250px;
-        opacity: 0.1;
+        width: 185px;
         position: absolute;
-        top: 50%;
+        top: 55%;
         left: 50%;
         z-index: -1;
         transform: translate(-50%, -50%);
