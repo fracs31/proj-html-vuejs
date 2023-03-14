@@ -167,8 +167,20 @@
     .message {
         font-size: 14px;
         border: 1px solid var(--second-grey);
+        border-radius: 4px;
         padding: 10px;
         flex-basis: 100%;
+        transition: 1s;
+    }
+    /* Input del form in hover */
+    .form input:hover,
+    .message:hover {
+        border: 2px solid var(--blue);
+    }
+    /* Input del form in focus */
+    .form input:focus,
+    .message:focus {
+        border: 2px solid var(--blue);
     }
     /* Nome del form e mail del form */
     .form .name,
