@@ -40,7 +40,7 @@
 <style scoped>
     /* Hero */
     .hero {
-        padding: 10px 150px;
+        padding: 80px 150px;
     }
     /* Box */
     .box {

@@ -66,6 +66,10 @@
     /* Header */
     .main-header {
         padding: 10px 0px;
+        background-color: white;
+        position: fixed;
+        width: 100vw;
+        z-index: 999;
     }
     /* Navbar */
     .navbar {
