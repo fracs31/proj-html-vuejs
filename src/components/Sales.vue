@@ -103,6 +103,7 @@
     /* Testo */
     .box__description--text {
         margin-bottom: 40px;
+        color: var(--grey);
     }
     /* Immagine usata */
     .box__image--img {
