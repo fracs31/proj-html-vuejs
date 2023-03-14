@@ -118,7 +118,7 @@
     /* Titolo */
     .box__title {
         font-size: 36px;
-        font-weight: 500;
+        font-weight: normal;
         margin-bottom: 15px;
     }
     /* Testo */

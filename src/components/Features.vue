@@ -206,7 +206,7 @@
     }
     /* Titolo della carta */
     .card__title {
-        font-weight: 500;
+        font-weight: 400;
         padding: 20px 0px;
     }
     /* Immagine della carta */

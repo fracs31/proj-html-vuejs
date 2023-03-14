@@ -93,7 +93,7 @@
     /* Titolo del box */
     .box__title {
         font-size: 36px;
-        font-weight: 500;
+        font-weight: normal;
         text-align: center;
         margin-bottom: 30px;
     }
@@ -119,7 +119,7 @@
     }
     /* Indirizzo */
     .address {
-        font-weight: 500;
+        font-weight: normal;
         font-size: 22px;
         margin-bottom: 25px;
     }
@@ -151,7 +151,7 @@
     }
     /* Get in touch */
     .get-in-touch {
-        font-weight: 500;
+        font-weight: normal;
         font-size: 22px;
         margin-bottom: 30px;
     }
