@@ -39,7 +39,7 @@
                                 Customized Invoices
                             </h3>
                             <!-- Immagine -->
-                            <img class="card__image" src="../assets/img/logo-2.png" alt="">
+                            <img class="card__image" src="../assets/img/features_1.png" alt="Customized Invoices">
                         </div>
                     </li>
                     <!-- Elemento della lista -->
@@ -51,7 +51,7 @@
                                 Stock Management
                             </h3>
                             <!-- Immagine -->
-                            <img class="card__image" src="../assets/img/logo-2.png" alt="">
+                            <img class="card__image" src="../assets/img/features_2.png" alt="Stock Management">
                         </div>
                     </li>
                     <!-- Elemento della lista -->
@@ -63,7 +63,7 @@
                                 Receivable & Payables
                             </h3>
                             <!-- Immagine -->
-                            <img class="card__image" src="../assets/img/logo-2.png" alt="">
+                            <img class="card__image" src="../assets/img/features_3.png" alt="Receivable & Payables">
                         </div>
                     </li>
                     <!-- Elemento della lista -->
@@ -75,7 +75,7 @@
                                 Manage Buying
                             </h3>
                             <!-- Immagine -->
-                            <img class="card__image" src="../assets/img/logo-2.png" alt="">
+                            <img class="card__image" src="../assets/img/features_4.png" alt="Manage Buying">
                         </div>
                     </li>
                     <!-- Elemento della lista -->
@@ -87,7 +87,7 @@
                                 Powerful & Secure
                             </h3>
                             <!-- Immagine -->
-                            <img class="card__image" src="../assets/img/logo-2.png" alt="">
+                            <img class="card__image" src="../assets/img/features_5.png" alt="Powerful & Secure">
                         </div>
                     </li>
                     <!-- Elemento della lista -->
@@ -99,7 +99,7 @@
                                 Fastest Return Filing
                             </h3>
                             <!-- Immagine -->
-                            <img class="card__image" src="../assets/img/logo-2.png" alt="">
+                            <img class="card__image" src="../assets/img/features_3.png" alt="Fastest Return Filing">
                         </div>
                     </li>
                     <!-- Elemento della lista -->
@@ -111,7 +111,7 @@
                                 Monthly Detailed
                             </h3>
                             <!-- Immagine -->
-                            <img class="card__image" src="../assets/img/logo-2.png" alt="">
+                            <img class="card__image" src="../assets/img/features_6.png" alt="Monthly Detailed">
                         </div>
                     </li>
                     <!-- Elemento della lista -->
@@ -123,7 +123,7 @@
                                 Product Management
                             </h3>
                             <!-- Immagine -->
-                            <img class="card__image" src="../assets/img/logo-2.png" alt="">
+                            <img class="card__image" src="../assets/img/features_7.png" alt="Product Management">
                         </div>
                     </li>
                 </ul>
@@ -195,6 +195,9 @@
     .card {
         padding: 0px 20px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        position: relative;
+        background-color: white;
+        z-index: 1;
     }
     /* Titolo della carta */
     .card__title {
