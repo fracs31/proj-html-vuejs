@@ -25,3 +25,9 @@ ul, ol, menu {
   max-width: 1142px;
   margin: 0px auto;
 }
+
+/* Container large */
+.container-lg {
+  max-width: 1300px;
+  margin: 0px auto;
+}

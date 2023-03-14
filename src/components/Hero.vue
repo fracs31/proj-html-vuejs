@@ -6,28 +6,31 @@
 <template>
     <!-- Hero -->
     <section class="hero">
-        <!-- Box -->
-        <div class="box">
-            <!-- Descrizione della box -->
-            <div class="box__description">
-                <!-- Titolo -->
-                <h1 class="box__description--title">
-                    The biggest platform for your growth.
-                </h1>
-                <!-- Testo -->
-                <p class="box__description--text">
-                    There are many variations of passages of Lorem Ipsum available,
-                    but the majority have suffered alteration in some form
-                </p>
-                <!-- Bottone -->
-                <button class="box__description--btn btn">
-                    Read More
-                </button>
-            </div>
-            <!-- Immagine della box -->
-            <div class="box__image">
-                <!-- Immagine -->
-                <img class="box__image--img" src="../assets/img/508.jpeg" alt="Hero">
+        <!-- Container large -->
+        <div class="container-lg">
+            <!-- Box -->
+            <div class="box">
+                <!-- Descrizione della box -->
+                <div class="box__description">
+                    <!-- Titolo -->
+                    <h1 class="box__description--title">
+                        The biggest platform for your growth.
+                    </h1>
+                    <!-- Testo -->
+                    <p class="box__description--text">
+                        There are many variations of passages of Lorem Ipsum available,
+                        but the majority have suffered alteration in some form
+                    </p>
+                    <!-- Bottone -->
+                    <button class="box__description--btn btn">
+                        Read More
+                    </button>
+                </div>
+                <!-- Immagine della box -->
+                <div class="box__image">
+                    <!-- Immagine -->
+                    <img class="box__image--img" src="../assets/img/508.jpeg" alt="Hero">
+                </div>
             </div>
         </div>
     </section>
@@ -43,7 +46,7 @@
     .box {
         background-color: var(--very-light-blue);
         border-radius: 6px;
-        padding: 60px;
+        padding: 50px;
         display: flex;
         gap: 60px;
     }
