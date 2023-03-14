@@ -18,7 +18,7 @@
                 </h2>
                 <!-- Testo -->
                 <p class="box__text">
-                    If you are planning on devoloping a product landing app or website,
+                    If you are planning on developing a product landing app or website,
                     take a look at this beautiful-crafted
                 </p>
             </div>
