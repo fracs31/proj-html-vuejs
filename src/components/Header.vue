@@ -94,22 +94,36 @@
         color: var(--first-black);
         font-size: 16px;
         cursor: pointer;
-    }
-    /* Active */
-    .list-item.active {
-        color: var(--blue);
+        transition: 0.6s;
         position: relative;
     }
-    /* Linea */
-    .list-item.active::after {
+    /* Linea dell'elemento della lista */
+    .list-item::after {
         content: "";
         display: block;
-        width: 100%;
+        width: 0%;
         height: 2px;
         background-color: var(--blue);
         position: absolute;
         left: 0px;
         top: 30px;
+        transition: 0.4s;
+    }
+    /* Active */
+    .list-item.active {
+        color: var(--blue);
+    }
+    /* Linea della classe active */
+    .list-item.active::after {
+        width: 100%;
+    }
+    /* Hover dell'elemento della lista */
+    .list-item:hover {
+        color: var(--blue);
+    }
+    /* Linea dell'elemento della lista quando è in hover */
+    .list-item:hover::after {
+        width: 100%;
     }
     /* Azioni */
     .actions {
