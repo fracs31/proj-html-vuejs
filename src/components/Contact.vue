@@ -148,6 +148,14 @@
         line-height: 40px;
         border: 1px solid var(--second-grey);
         border-radius: 4px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    /* Hover dei social */
+    .social:hover {
+        color: white;
+        background-color: var(--blue);
+        box-shadow: rgba(55, 125, 255, 1) 0px 8px 24px;
     }
     /* Get in touch */
     .get-in-touch {
