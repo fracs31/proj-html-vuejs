@@ -22,8 +22,7 @@
                 <div class="informations">
                     <!-- Mappa -->
                     <div class="map">
-                        <!-- Immagine -->
-                        <img class="map__img" src="../assets/img/StaticMapService.GetMapIma.png" alt="Map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3152.433058493912!2d-122.47505588474775!3d37.803324279754165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808586e6302615a1%3A0x86bd130251757c00!2sStorey%20Ave%2C%20San%20Francisco%2C%20CA%2094129%2C%20Stati%20Uniti!5e0!3m2!1sit!2sit!4v1678783196913!5m2!1sit!2sit" width="555" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                     </div>
                     <!-- Noi -->
                     <div class="us">
