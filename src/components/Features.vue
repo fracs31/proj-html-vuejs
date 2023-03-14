@@ -137,6 +137,7 @@
     /* Features */
     .features {
         padding-top: 155px;
+        padding-bottom: 70px;
         position: relative;
     }
     /* Sfondo delle features */

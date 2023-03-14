@@ -8,10 +8,10 @@
     <section class="testimonials">
         <!-- Sfondo -->
         <img class="testimonials__bg" src="../assets/img/15.png" alt="Background">
-        <!-- Container -->
-        <div class="container">
-            <!-- Box -->
-            <div class="box">
+        <!-- Box -->
+        <div class="box">
+            <!-- Container -->
+            <div class="container">
                 <!-- Titolo -->
                 <h2 class="box__title">
                     Our Testimonials
@@ -21,6 +21,9 @@
                     If you are planning on devoloping a product landing app or website,
                     take a look at this beautiful-crafted
                 </p>
+            </div>
+            <!-- Container -->
+            <div class="container">
                 <!-- Persone -->
                 <div class="people">
                     <!-- Carta -->
@@ -84,15 +87,15 @@
     .testimonials__bg {
         background-color: var(--very-light-blue);
         width: 100%;
-        height: 255px;
+        height: 200px;
         position: absolute;
         left: 0px;
         top: 0px;
-        z-index: -1;
     }
     /* Box */
     .box {
         text-align: center;
+        background: linear-gradient(to bottom, rgba(242, 247, 255, 1) 0, #ffffff 60%);
     }
     /* Titolo */
     .box__title {
@@ -124,12 +127,12 @@
         position: absolute;
         top: 55%;
         left: 50%;
-        z-index: -1;
         transform: translate(-50%, -50%);
     }
     /* Immagine della carta */
     .card__image {
         margin-bottom: 45px;
+        position: relative;
     }
     /* Immagine */
     .card__image--img {
@@ -140,6 +143,7 @@
     /* Titolo della carta */
     .card__title {
         margin-bottom: 35px;
+        position: relative;
     }
     /* Titolo */
     .card__title--title {
@@ -156,5 +160,6 @@
         text-align: left;
         padding: 0px 30px;
         color: var(--grey);
+        position: relative;
     }
 </style>
