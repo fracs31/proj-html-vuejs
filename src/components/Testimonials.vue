@@ -119,7 +119,40 @@
         flex-basis: calc((100% / 2) - (60px * (1 / 2)));
         padding: 50px 0px;
         box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 4px;
         position: relative;
+    }
+    /* Before della carta */
+    .card::before {
+        content: "";
+        display: block;
+        height: 10px;
+        width: 90%;
+        background-color: white;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        box-shadow: rgba(100, 100, 111, 1) 0px 7px 29px 0px;
+        opacity: 0.3;
+        position: absolute;
+        left: 50%;
+        bottom: -10px;
+        transform: translate(-50%, 0%);
+    }
+    /* After della carta */
+    .card::after {
+        content: "";
+        display: block;
+        height: 10px;
+        width: 80%;
+        background-color: white;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        box-shadow: rgba(100, 100, 111, 1) 0px 7px 29px 0px;
+        opacity: 0.1;
+        position: absolute;
+        left: 50%;
+        bottom: -20px;
+        transform: translate(-50%, 0%);
     }
     /* Sfondo della carta */
     .card__bg {
