@@ -136,7 +136,7 @@
 <style scoped>
     /* Marketing */
     .marketing {
-        padding: 130px 0px;
+        padding-top: 130px;
     }
     /* Offerte */
     .offerts {

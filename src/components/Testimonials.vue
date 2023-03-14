@@ -77,6 +77,7 @@
 <style scoped>
     /* Testimonials */
     .testimonials {
+        padding-top: 200px;
         position: relative;
     }
     /* Sfondo di testimonials */
@@ -92,7 +93,6 @@
     /* Box */
     .box {
         text-align: center;
-        padding-top: 113px;
     }
     /* Titolo */
     .box__title {

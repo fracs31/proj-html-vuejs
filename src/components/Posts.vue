@@ -100,9 +100,9 @@
 
 <!-- CSS -->
 <style scoped>
-    /* Box */
-    .box {
-        padding: 100px 0px;
+    /* Posts */
+    .posts {
+        padding-top: 125px;
     }
     .box__title {
         text-align: center;

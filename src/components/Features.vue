@@ -136,7 +136,7 @@
 <style scoped>
     /* Features */
     .features {
-        padding-top: 120px;
+        padding-top: 155px;
         position: relative;
     }
     /* Sfondo delle features */

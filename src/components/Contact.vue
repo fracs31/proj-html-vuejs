@@ -86,8 +86,8 @@
 
 <!-- CSS -->
 <style scoped>
-    /* Box */
-    .box {
+    /* Contact */
+    .contact {
         padding: 120px 0px;
     }
     /* Titolo del box */

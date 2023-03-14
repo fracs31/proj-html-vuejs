@@ -84,6 +84,10 @@
 
 <!-- CSS -->
 <style scoped>
+    /* Sales */
+    .sales {
+        padding-top: 165px;
+    }
     /* Box */
     .box {
         display: flex;
