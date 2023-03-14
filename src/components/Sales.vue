@@ -5,7 +5,7 @@
 <!-- Template -->
 <template>
     <!-- Sales -->
-    <section class="sales">
+    <section class="sales" id="sales">
         <!-- Container -->
         <div class="container">
             <!-- Box -->

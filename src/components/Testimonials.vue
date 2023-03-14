@@ -5,7 +5,7 @@
 <!-- Template -->
 <template>
     <!-- Testimonials -->
-    <section class="testimonials">
+    <section class="testimonials" id="testimonials">
         <!-- Sfondo -->
         <img class="testimonials__bg" src="../assets/img/15.png" alt="Background">
         <!-- Box -->

@@ -5,7 +5,7 @@
 <!-- Template -->
 <template>
     <!-- Features -->
-    <section class="features">
+    <section class="features" id="features">
         <!-- Background -->
         <img class="features__bg" src="../assets/img/14.png" alt="Background">
         <!-- Container -->

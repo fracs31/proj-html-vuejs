@@ -5,7 +5,7 @@
 <!-- Template -->
 <template>
     <!-- Contatti -->
-    <section class="contact">
+    <section class="contact" id="contact">
         <!-- Container -->
         <div class="container">
             <!-- Box -->

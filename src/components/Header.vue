@@ -11,24 +11,40 @@ export default {
                 {
                     fullName: "Home", //nome
                     active: true, //classe attiva
+                    link: "#hero", //link
                 },
                 {
                     fullName: "About Us", //nome
                     active: false, //classe attiva
+                    link: "#sales", //link
                 },
                 {
                     fullName: "Feature", //nome
                     active: false, //classe attiva
+                    link: "#features", //link
                 },
                 {
                     fullName: "Testimonials", //nome
                     active: false, //classe attiva
+                    link: "#testimonials", //link
                 },
                 {
                     fullName: "Contact Us", //nome
                     active: false, //classe attiva
+                    link: "#contact", //link
                 },
             ],
+        }
+    },
+    //Metodi
+    methods : {
+        //Metodo per cambiare la classe attiva agli elementi della lista
+        changeStatus(index) {
+            //Tolgo la classe attiva a tutti gli elementi della lista
+            for (let i = 0; i < this.listItems.length; i++) {
+                this.listItems[i].active = false;
+            }
+            this.listItems[index].active = true; //assegno la classe attiva all'elemento cliccato
         }
     }
 }
@@ -51,8 +67,9 @@ export default {
                 <!-- Lista -->
                 <ul class="list">
                     <!-- Elemento della lista -->
-                    <li class="list-item" v-for="(item) in listItems" v-bind:class="(item.active) ? 'active' : ''">
-                        {{ item.fullName }}
+                    <li class="list-item" v-for="(item, i) in listItems" v-bind:class="(item.active) ? 'active' : ''" v-on:click="changeStatus(i)">
+                        <!-- Ancora -->
+                        <a v-bind:href="item.link">{{ item.fullName }}</a>
                     </li>
                 </ul>
                 <!-- Azioni -->

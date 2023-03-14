@@ -5,7 +5,7 @@
 <!-- Template -->
 <template>
     <!-- Hero -->
-    <section class="hero">
+    <section class="hero" id="hero">
         <!-- Container large -->
         <div class="container-lg">
             <!-- Box -->

@@ -16,8 +16,17 @@
   font-family: 'Poppins', sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul, ol, menu {
   list-style-type: none;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
 }
 
 /* Container */
