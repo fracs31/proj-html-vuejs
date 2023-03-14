@@ -184,6 +184,10 @@
         font-size: 16px;
         padding: 10px 15px;
         cursor: pointer;
-        width: fit-content;
+        transition: 0.8s;
+    }
+    /* Bottone in hover */
+    .btn:hover {
+        background-color: var(--first-black);
     }
 </style>
