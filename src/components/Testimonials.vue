@@ -6,6 +6,8 @@
 <template>
     <!-- Testimonials -->
     <section class="testimonials">
+        <!-- Sfondo -->
+        <img class="testimonials__bg" src="../assets/img/15.png" alt="Background">
         <!-- Container -->
         <div class="container">
             <!-- Box -->
@@ -73,6 +75,20 @@
 
 <!-- CSS -->
 <style scoped>
+    /* Testimonials */
+    .testimonials {
+        position: relative;
+    }
+    /* Sfondo di testimonials */
+    .testimonials__bg {
+        background-color: var(--very-light-blue);
+        width: 100%;
+        height: 255px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1;
+    }
     /* Box */
     .box {
         text-align: center;
