@@ -1,5 +1,38 @@
 <!-- JavaScript -->
 <script>
+
+//Esporto
+export default {
+    //Data
+    data() {
+        return {
+            //Elementi della lista
+            listItems: [
+                {
+                    fullName: "Home", //nome
+                    active: true, //classe attiva
+                },
+                {
+                    fullName: "About Us", //nome
+                    active: false, //classe attiva
+                },
+                {
+                    fullName: "Feature", //nome
+                    active: false, //classe attiva
+                },
+                {
+                    fullName: "Testimonials", //nome
+                    active: false, //classe attiva
+                },
+                {
+                    fullName: "Contact Us", //nome
+                    active: false, //classe attiva
+                },
+            ],
+        }
+    }
+}
+
 </script>
 
 <!-- Template -->
@@ -18,24 +51,8 @@
                 <!-- Lista -->
                 <ul class="list">
                     <!-- Elemento della lista -->
-                    <li class="list-item active">
-                        Home
-                    </li>
-                    <!-- Elemento della lista -->
-                    <li class="list-item">
-                        About us
-                    </li>
-                    <!-- Elemento della lista -->
-                    <li class="list-item">
-                        Feature
-                    </li>
-                    <!-- Elemento della lista -->
-                    <li class="list-item">
-                        Testimonials
-                    </li>
-                    <!-- Elemento della lista -->
-                    <li class="list-item">
-                        Contact US
+                    <li class="list-item" v-for="(item) in listItems" v-bind:class="(item.active) ? 'active' : ''">
+                        {{ item.fullName }}
                     </li>
                 </ul>
                 <!-- Azioni -->
