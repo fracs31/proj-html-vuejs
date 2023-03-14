@@ -26,48 +26,66 @@
             <div class="container">
                 <!-- Persone -->
                 <div class="people">
-                    <!-- Carta -->
-                    <div class="card">
-                        <!-- Sfondo della carta -->
-                        <img class="card__bg" src="../assets/img/quote.png" alt="Background">
-                        <!-- Immagine della carta -->
-                        <div class="card__image">
-                            <!-- Immagine -->
-                            <img class="card__image--img" src="../assets/img/26.jpeg" alt="Julia Aann">
+                    <!-- Lista -->
+                    <ul class="list">
+                        <!-- Elemento della lista -->
+                        <li class="list-item">
+                            <!-- Carta -->
+                            <div class="card">
+                                <!-- Sfondo della carta -->
+                                <img class="card__bg" src="../assets/img/quote.png" alt="Background">
+                                <!-- Immagine della carta -->
+                                <div class="card__image">
+                                    <!-- Immagine -->
+                                    <img class="card__image--img" src="../assets/img/26.jpeg" alt="Julia Aann">
+                                </div>
+                                <!-- Titolo della carta -->
+                                <div class="card__title">
+                                    <!-- Titolo -->
+                                    <h3 class="card__title--title">
+                                        Julia Aann <span class="card__title--title__little">- COO Sofbox</span>
+                                    </h3>
+                                </div>
+                                <!-- Testo -->
+                                <div class="card__text">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                    vero eos et consectetur accus adip adip.
+                                </div>
+                            </div>
+                        </li>
+                        <!-- Elemento della lista -->
+                        <li class="list-item">
+                            <!-- Carta -->
+                            <div class="card">
+                                <!-- Sfondo della carta -->
+                                <img class="card__bg" src="../assets/img/quote.png" alt="Background">
+                                <!-- Immagine della carta -->
+                                <div class="card__image">
+                                    <!-- Immagine -->
+                                    <img class="card__image--img" src="../assets/img/27.jpeg" alt="Mac Znder">
+                                </div>
+                                <!-- Titolo della carta -->
+                                <div class="card__title">
+                                    <!-- Titolo -->
+                                    <h3 class="card__title--title">
+                                        Mac Znder <span class="card__title--title__little">- Manager Sofbox</span>
+                                    </h3>
+                                </div>
+                                <!-- Testo -->
+                                <div class="card__text">
+                                    At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
+                                    vero eos et consectetur accus adip adip.
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <!-- Pallini -->
+                    <div class="dots">
+                        <!-- Pallino -->
+                        <div class="dot active">
                         </div>
-                        <!-- Titolo della carta -->
-                        <div class="card__title">
-                            <!-- Titolo -->
-                            <h3 class="card__title--title">
-                                Julia Aann <span class="card__title--title__little">- COO Sofbox</span>
-                            </h3>
-                        </div>
-                        <!-- Testo -->
-                        <div class="card__text">
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                            vero eos et consectetur accus adip adip.
-                        </div>
-                    </div>
-                    <!-- Carta -->
-                    <div class="card">
-                        <!-- Sfondo della carta -->
-                        <img class="card__bg" src="../assets/img/quote.png" alt="Background">
-                        <!-- Immagine della carta -->
-                        <div class="card__image">
-                            <!-- Immagine -->
-                            <img class="card__image--img" src="../assets/img/27.jpeg" alt="Mac Znder">
-                        </div>
-                        <!-- Titolo della carta -->
-                        <div class="card__title">
-                            <!-- Titolo -->
-                            <h3 class="card__title--title">
-                                Mac Znder <span class="card__title--title__little">- Manager Sofbox</span>
-                            </h3>
-                        </div>
-                        <!-- Testo -->
-                        <div class="card__text">
-                            At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium
-                            vero eos et consectetur accus adip adip.
+                        <!-- Pallino -->
+                        <div class="dot">
                         </div>
                     </div>
                 </div>
@@ -108,8 +126,8 @@
         margin-bottom: 100px;
         color: var(--grey);
     }
-    /* Persone */
-    .people {
+    /* Lista */
+    .list {
         padding: 0px 30px;
         display: flex;
         gap: 60px;
@@ -194,5 +212,25 @@
         padding: 0px 30px;
         color: var(--grey);
         position: relative;
+    }
+    /* Pallini */
+    .dots {
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+    }
+    /* Pallino */
+    .dot {
+        width: 10px;
+        aspect-ratio: 1;
+        background-color: black;
+        border-radius: 999px;
+        cursor: pointer;
+    }
+    /* Active */
+    .dot.active {
+        background-color: var(--blue);
     }
 </style>
