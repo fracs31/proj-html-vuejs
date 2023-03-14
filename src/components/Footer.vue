@@ -112,9 +112,14 @@
     /* Immagine */
     .last-informations__image {
         width: 145px;
+        margin-bottom: 20px;
     }
-    /* Testo  e copyright*/
-    .last-informations__text,
+    /* Testo*/
+    .last-informations__text {
+        color: var(--grey);
+        margin-bottom: 70px;
+    }
+    /* Copyright */
     .last-informations__copyright {
         color: var(--grey);
     }
