@@ -143,5 +143,11 @@
     .list-item {
         color: var(--grey);
         margin-bottom: 25px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+    /* Elementi della lista in hover */
+    .list-item:hover {
+        color: var(--blue);
     }
 </style>
