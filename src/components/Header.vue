@@ -145,9 +145,14 @@
     .btn:hover {
         background-color: var(--first-black);
     }
+    /* Ricerca */
+    .search {
+        cursor: pointer;
+    }
     /* Carrello */
     .cart {
         position: relative;
+        cursor: pointer;
     }
     /* Pallino */
     .cart::after {
