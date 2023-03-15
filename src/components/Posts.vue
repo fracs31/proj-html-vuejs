@@ -128,6 +128,11 @@
     /* Carta */
     .card {
         border: 1px solid var(--second-grey);
+        transition: 0.4s;
+    }
+    /* Hover della carta */
+    .card:hover {
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     }
     /* Immagine della carta */
     .card__image {
