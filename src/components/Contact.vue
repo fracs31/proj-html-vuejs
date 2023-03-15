@@ -178,7 +178,11 @@
         border-radius: 4px;
         padding: 10px;
         flex-basis: 100%;
-        transition: 1s;
+        transition: border 1s;
+    }
+    /* Messaggio */
+    .message {
+        resize: vertical;
     }
     /* Input del form in hover */
     .form input:hover,
